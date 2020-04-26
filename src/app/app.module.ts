@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
+import { ServiceModule } from './services/service.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChartsModule } from 'ng2-charts';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
