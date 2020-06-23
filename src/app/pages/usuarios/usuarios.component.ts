@@ -4,7 +4,7 @@ import { Usuario } from 'src/app/models/usuario.model';
 import { ReturnStatement } from '@angular/compiler';
 import Swal from 'sweetalert2';
 import { ModalUploadService } from '../../components/modal-upload/modal-upload.service';
-
+ 
 @Component({
   selector: 'app-usuarios',
   templateUrl: './usuarios.component.html',
